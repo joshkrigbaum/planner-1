@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <title>Family Planner</title>
+    <meta http-equiv="refresh" content="60" />
+    <link rel="stylesheet" type="text/css" href="css/planner.css">
+    <script src="js/planner.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Baloo|Ubuntu+Condensed" rel="stylesheet">
+</head>
+
+<body>
+    <h1><span id="date">DATE</span>&nbsp;/&nbsp;<span id="time">TIME</span></h1>
+    <script>
+        getDate()
+    </script>
+    <script>
+        getTime()
+    </script>
+    <script>
+        refreshFromHTML()
+    </script>
+
+    <div id="weather">
+        <div id="weatherTitles">
+            <div id="currentTitle">
+                <h2>Current<br>Conditions</h2>
+            </div>
+            <div class="forecastTitle">
+                <h2><span id="day1">Monday<!--d1--></span></h2>
+            </div>
+            <div class="forecastTitle">
+                <h2><span id="day2">Tuesday<!--d2--></span></h2>
+            </div>
+            <div class="forecastTitle">
+                <h2><span id="day3">Wednesday<!--d3--></span></h2>
+            </div>
+        </div>
+        <div id="weatherContent">
+            <div id="currentContent">
+                <div class="contentLabels">
+                    Temperature:
+                    <br> Humidity:
+                    <br> Winds:
+                    <br> Visibility:
+                </div>
+                <div class="contentItems">
+                    <span id="currentTemp">80 &#8457;</span>
+                    <br> <span id="currentHumidity">54 %</span>
+                    <br> <span id="currentWindSpeed">11 mph</span>
+                    <br> <span id="currentVisibility">10 mi.</span>
+                </div>
+            </div>
+            <div class="forecastContent">
+                <div class="contentLabels">
+                    Low:
+                    <br> High:
+                    <br> Humidity:
+                    <br> Winds:
+                    <br> Visibility:
+                </div>
+                <div class="contentItems">
+                    <span id="lowTemp1">63 &#8457;<!--1--></span>
+                    <br> <span id="highTemp1">86 &#8457;<!--2--></span>
+                    <br> <span id="humidity1">74 %<!--1--></span>
+                    <br> <span id="windspeed1">4 mph<!--1--></span>
+                    <br> <span id="visibility1">10 mi.<!--1--></span>
+                </div>
+            </div>
+            <div class="forecastContent">
+                <div class="contentLabels">
+                    Low:
+                    <br> High:
+                    <br> Humidity:
+                    <br> Winds:
+                    <br> Visibility:
+                </div>
+                <div class="contentItems">
+                    <span id="lowTemp2">56 &#8457;<!--3--></span>
+                    <br> <span id="highTemp2">75 &#8457;<!--4--></span>
+                    <br> <span id="humidity2">86 %<!--2--></span>
+                    <br> <span id="windspeed2">4 mph<!--2--></span>
+                    <br> <span id="visibility2">10 mi.<!--2--></span>
+                </div>
+            </div>
+            <div class="forecastContent">
+                <div class="contentLabels">
+                    Low:
+                    <br> High:
+                    <br> Humidity:
+                    <br> Winds:;
+                    <br> Visibility:
+                </div>
+                <div class="contentItems">
+                    <span id="lowTemp3">56 &#8457;<!--5--></span>
+                    <br> <span id="highTemp3">78 &#8457;<!--6--></span>
+                    <br> <span id="humidity3">78 %<!--3--></span>
+                    <br> <span id="windspeed3">8 mph<!--3--></span>
+                    <br> <span id="visibility3">10 mi.<!--3--></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id=bottom>
+        <div id="left">
+
+            <h2><span id="wotd">Word of the Day</span></h2>
+            <div id="wotdTitle">
+                <span id="word">transpire:&nbsp;<!--w1--></span>
+                <span id="pronounce">[&nbsp;&nbsp;tran(t)-ˈspī(-ə)r&nbsp;]<!--w2--></span>
+                <span id="pos">&nbsp;verb<!--w3--></span><br><br>
+            </div>
+            <span id="defs">&nbsp;&nbsp;&nbsp;Definition 1) &nbsp;to pass off or give passage to (a fluid) through pores or interstices<br>&nbsp;&nbsp;&nbsp;Definition 2) &nbsp;to excrete (as water) in the form of a vapor through a living membrane (as the skin)<br>&nbsp;&nbsp;&nbsp;Definition 3) &nbsp;to give off vaporous material<br>&nbsp;&nbsp;&nbsp;Definition 4) &nbsp;to give off or exude watery vapor especially from the surfaces of leaves<br>&nbsp;&nbsp;&nbsp;Definition 5) &nbsp;to pass in the form of a vapor from a living body<br>&nbsp;&nbsp;&nbsp;Definition 6) &nbsp;to be revealed come to light<br>&nbsp;&nbsp;&nbsp;Definition 7) &nbsp;to become known or apparent <br>&nbsp;&nbsp;&nbsp;Definition 8) &nbsp;to take place  <br><!--w4--></span>
+        </div>
+        <div id="right">
+            <iframe src="https://calendar.google.com/calendar/embed?src=lekrigbaum%40gmail.com&ctz=America/New_York " style="border: 0 " width="869" height="465"></iframe>
+        </div>
+    </div>
+</body>
+
+</html>
